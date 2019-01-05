@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+.input-box{
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background: #fff;
+}
+.input-box input{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 84%;
+    margin: 20px;
+    outline: none
+}
+
+.messages{
+    height: 89vh;
+    overflow: auto;
+}
+.messages small{
+    color: indianred;
+}
+.message-card{
+    margin: 30px;
+    background: #eee;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.flex-msg{
+    display: flex;
+    justify-content: space-between;
+    text-align: center
+}
+
